@@ -4,17 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Techwave</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
+<body class="text-white">
     <header>
+        <div class=" bg-indigo-950 w-full">
+            <nav class="mx-auto items-center text-white max-w-[400px] p-2.5 flex justify-between lg:max-w-[1200px] lg:py-[30px]">
+
+            <img class="max-w-[137px] lg:max-w-[219px] h-auto" src="./assets/TechWave.png" alt="">
+
+            <ul class="hidden lg:flex text-[16px] gap-8 font-medium">
+                <li><a href="">About</a></li>
+                <li><a href="">Episodes</a></li>
+                <li><a href="">Host</a></li>
+            </ul>
+            <img class="lg:hidden" src="./assets/hamburger-menu.png" alt="">
+
+            <button class="hidden lg:block bg-linear-[47.64deg] from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-[1000px] px-4 py-3">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+        </nav>
+        </div>
+
+        <div class="bg-[url('./assets/hero-bg.png')] w-full px-5 py-10 bg-cover bg-center h-auto text-center lg:py-[100px] ">
+            
+            <div class=" flex flex-col justify-center items-center ">
+
+                <div class="bg-[url('./assets/hero-circle.png')] bg-no-repeat bg-center w-[200px] h-[200px] bg-cover items-center justify-center flex lg:w-[350px] lg:h-[350px]">
+
+                <img class="w-12 lg:w-[116px] " src="./assets/microphone.png" alt="">
+
+                </div>
+                <div class="max-w-[400px] mt-6 lg:max-w-[550px]">
+                    
+                    <h2 class=" text-[40px] font-extrabold lg:mt-10 lg:text-6xl">TechWave</h2>
+
+                    <p class="text-[16px] mt-2">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+
+                    <div class="mt-6 flex gap-2 justify-center">
+
+                        <button class="bg-linear-[47.64deg] from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-[1000px] px-4 py-3">Listen On Spotify</button>
+
+                        <button class="text-[#00FF88] text-[16px] border px-5 py-3 rounded-[100px]"><i class="fa-regular fa-envelope"></i> Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </header>
     <main>
-        
+        <section class="bg-[#1A0B2E] ">
+            <h2>About The Poducast</h2>
+            <p>TechWave is your go-to podcast for staying ahead in the fast-paced world of tefhnology. We break down complex topics into digestible insights, explore productivity strategies that actually work, and shate stories of personal growth from industry leaders.</p>
+            <p>Join thousands of young professionals and tech enthusiasts who strart their day with TechWave.</p>
+        </section>
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>
