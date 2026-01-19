@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Techwave</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
     
 </head>
-<body class="text-white mb-10">
+<body class="text-white mb-100 inter">
     <header class="bg-[#1A0B2E]">
         <div class=" bg-[#1A0B2E] w-full">
             <div class="w-full border-b-2 border-[#35116566]">
@@ -48,9 +48,9 @@
 
                     <div class="mt-6 flex gap-2 justify-center">
 
-                        <button class="bg-linear-[47.64deg] from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-[1000px] px-4 py-3">Listen On Spotify</button>
+                        <button class="bg-linear-[47.64deg] from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-[1000px] px-4 py-3 text-[14px]"><i class="fa-brands fa-spotify"></i> Listen On Spotify</button>
 
-                        <button class="text-[#00FF88] text-[16px] border px-5 py-3 rounded-[100px]"><i class="fa-regular fa-envelope"></i> Subscribe</button>
+                        <button class="text-[#00FF88] text-[14px] border px-5 py-3 rounded-[100px]"><i class="fa-regular fa-envelope"></i> Subscribe</button>
                     </div>
                 </div>
             </div>
@@ -125,6 +125,82 @@
                     </div>
 
 
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-[#1A0B2E] px-5 py-10">
+            
+            <div class="max-w-[1200px] mx-auto">
+                <h2 class="text-[32px] text-center font-bold mb-6">Featured Episodes</h2>
+
+                <div class="flex flex-col gap-4 lg:flex-row lg:gap-[30px]">
+                    <div class="bg-[#250D44] rounded-3xl">
+                        <iframe class="w-full h-auto rounded-t-3xl" src="https://www.youtub.com/embed/oX7OduG1YmI?si=pV8XXOLbQe-b5NHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="p-4">
+                            <h3 class="font-bold text-[20px]">The Future of AI in Everyday Life</h3>
+                            <p class="mt-2 leading-[26px]">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next...</p>
+                            <p class="text-[#00FF88] font-bold mt-2"><i class="fa-solid fa-clock"></i> 42 min</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="bg-[#250D44] rounded-3xl">
+                        <iframe class="w-full rounded-t-3xl" src="https://www.youtub.com/embed/oX7OduG1YmI?si=pV8XXOLbQe-b5NHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="p-4">
+                            <h3 class="font-bold text-[20px]">Building Better Habits for Remote Work</h3>
+                            <p class="mt-2 leading-[26px]">Practical strategies for staying productive and maintaining work-life balance in a...</p>
+                            <p class="text-[#00FF88] font-bold mt-2"><i class="fa-solid fa-clock"></i> 35 min</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-[#250D44] rounded-3xl">
+                        <iframe class="w-full h-40 rounded-t-3xl" src="https://www.youtub.com/embed/fZmQ_aPXJAM?si=Wq7ONbr67p-DrN36" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="p-4">
+                            <h3 class="font-bold text-[20px]">Career Growth in Tech: A Roadmap</h3>
+                            <p class="mt-2 leading-[26px]">Expert advice on navigating your tech career from junior developer to senior leadership...</p>
+                            <p class="text-[#00FF88] font-bold mt-2"><i class="fa-solid fa-clock"></i> 52 min</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                
+            </div>
+
+            <div class="mt-[60px] max-w-[1200px] mx-auto">
+                <h2 class="text-[32px] font-bold text-center lg:text-5xl lg:mt-[120px]">Meet The Host</h2>
+
+                <div class="flex justify-center items-center flex-col text-center bg-[#35116566] mt-6 p-6 rounded-3xl lg:flex-row lg:mt-10 lg:gap-6">
+
+                    <img class="w-[150px] lg:w-[200px]" src="./assets/host.png" alt="">
+
+                    <div class="">
+
+                        <h3 class="my-4 text-2xl font-bold lg:text-[32px] lg:text-start justify-start lg:my-4">Alex Kumar</h3>
+
+                        <p class="leading-6 lg:text-start">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+                        
+                        <div class="flex items-center justify-center mt-4 gap-2 lg:justify-start">
+
+                            <span class="border-2 border-[#533C72] p-2.5 rounded-[1000px]">
+                                <img src="./assets/linkedin.png" alt="">
+                            </span>
+
+                            <span class="w-auto h-auto border-2 border-[#533C72] p-2.5 rounded-[1000px]">
+                                <img src="./assets/x.png" alt="">
+                            </span>
+
+                            <span class="border-2 border-[#533C72] p-2.5 rounded-[1000px]">
+                                <img src="./assets/instagram.png" alt="">
+                            </span>
+
+                            <span class="border-2 border-[#533C72] p-2.5 rounded-[1000px]">
+                                <img src="./assets/youtube.png" alt="">
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
