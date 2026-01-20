@@ -13,44 +13,46 @@
     <header class="bg-[#1A0B2E]">
         <div class=" bg-[#1A0B2E] w-full">
             <div class="w-full border-b-2 border-[#35116566]">
-                <nav class="mx-auto items-center text-white max-w-[400px] p-2.5 flex justify-between min-[992px]:max-w-[1200px] min-[992px]:py-[30px]">
+                <nav class="mx-auto items-center text-white max-w-[400px] p-2.5 flex justify-between min-[576px]:py-5 min-[576px]:max-w-full min-[576px]:px-16 min-[992px]:max-w-[1200px] min-[992px]:py-[30px]">
                     
-                    <img class="max-w-[137px] min-[992px]:max-w-[219px] h-auto" src="./assets/TechWave.png" alt="">
+                    <img class="max-w-[137px] min-[576px]:max-w-[200px] min-[992px]:max-w-[219px] h-auto" src="./assets/TechWave.png" alt="">
                     
-                    <ul class="hidden min-[992px]:flex text-[16px] gap-8 font-medium">
+                    <ul class="hidden  min-[992px]:flex text-[16px] gap-8 font-medium">
                         <li><a href="">About</a></li>
                         <li><a href="">Episodes</a></li>
                         <li><a href="">Host</a></li>
                     </ul>
-                    <img class="min-[992px]:hidden" src="./assets/hamburger-menu.png" alt="">
+                    <img class="min-[992px]:hidden min-[576px]:w-8" src="./assets/hamburger-menu.png" alt="">
                     
-                    <button class="hidden min-[992px]:block bg-linear-[47.64deg] from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-[1000px] px-4 py-3">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+                    <button class="hidden min-[576px]:block min-[992px]:block bg-linear-[47.64deg] from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-[1000px] px-4 py-3 hover:-translate-y-3 hover:scale-110 hover:shadow-[0_10px_15px_rgba(255,0,255,0.6)] transition-all duration-500">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
                 </nav>
             </div>
         </div>
 
-        <div class="bg-[url('./assets/hero-bg.png')] w-full px-5 py-10 bg-contain bg-[position:0px_25%] bg-no-repeat min-[992px]:bg-center h-auto text-center min-[992px]:pt-[100px] min-[992px]:pb-10 min-[992px]:bg-cover">
+        <div class="bg-[url('./assets/hero-bg.png')] w-full px-5 py-10 bg-contain bg-[position:0px_25%]  bg-no-repeat min-[992px]:bg-center min-[992px]:pt-[100px] min-[992px]:pb-10 min-[992px]:bg-cover">
             
             <div class=" flex flex-col justify-center items-center ">
 
-                <div class="bg-[url('./assets/hero-circle.png')] bg-no-repeat bg-center w-[200px] h-[200px] bg-cover items-center justify-center flex min-[992px]:w-[350px] min-[992px]:h-[350px] relative">
+                <div class=" bg-[linear-gradient(47.64deg,#f7e93f_16%,#fb09b4_49%,#9100f8_81%)] rounded-[1000px] bg-no-repeat bg-center w-[200px] h-[200px] bg-cover items-center justify-center flex relative mic-bg-animate min-[576px]:w-[300px] min-[576px]:h-[300px] min-[992px]:w-[350px] min-[992px]:h-[350px]">
 
-                    <img class="w-12 min-[992px]:w-[116px] " src="./assets/microphone.png" alt="">
+                    <img class="w-12 min-[576px]:w-[90px]  min-[992px]:w-[116px] " src="./assets/microphone.png" alt="">
 
-                    <p class="absolute bg-[#00FF88] rounded-[1000px] px-4 py-2 font-bold text-black shadow-[0px_6px_27px_0px_#00ff8880] top-0 right-0 min-[992px]:text-[18px] min-[992px]:top-4 min-[992px]:right-4">NEW</p>
+                    <p class="absolute bg-[#00FF88] rounded-[1000px] px-4 py-2 font-bold text-black shadow-[0px_6px_27px_0px_#00ff8880] top-0 right-0 min-[576px]:top-2.5 min-[992px]:text-[18px] min-[576px]:right-2.5 min-[992px]:top-4 min-[992px]:right-4  hover:-translate-y-3 hover:scale-110 hover:shadow-[0_10px_15px_rgba(255,0,255,0.6)] transition-all duration-500 ">NEW</p>
 
                 </div>
-                <div class="max-w-[400px] mt-6 min-[992px]:max-w-[550px]">
+                <div class="max-w-[400px] mt-6 min-[576px]:mt-10 min-[576px]:max-w-[550px] text-center">
                     
-                    <h2 class=" text-[40px] font-extrabold min-[992px]:mt-10 min-[992px]:text-6xl">TechWave</h2>
+                    <h2 class=" text-[40px] font-bold min-[576px]:font-extrabold min-[576px]:text-5xl min-[992px]:mt-10 min-[992px]:text-6xl">TechWave</h2>
 
-                    <p class="text-[16px] mt-2">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                    <p class="mt-2">Your daily dose of tech insights, productivity hacks, and personal growth</p>
 
                     <div class="mt-6 flex gap-2 justify-center">
 
-                        <button class="bg-linear-[47.64deg] from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-[1000px] px-4 py-3 text-[14px]"><i class="fa-brands fa-spotify"></i> Listen On Spotify</button>
+                        <button 
+                        class="bg-linear-[47.64deg] from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-[1000px] px-4 py-3 text-[14px] hover:-translate-y-3 hover:scale-110 hover:shadow-[0_10px_15px_rgba(255,0,255,0.6)] transition-all duration-500 ">
+                            <i class="fa-brands fa-spotify"></i> Listen On Spotify</button>
 
-                        <button class="text-[#00FF88] text-[14px] border px-5 py-3 rounded-[100px]"><i class="fa-regular fa-envelope"></i> Subscribe</button>
+                        <button class="text-[#00FF88] text-[14px] border px-5 py-3 rounded-[1000px] hover:-translate-y-3 hover:scale-110 hover:shadow-[0_10px_15px_#00FF88] transition-all duration-500"><i class="fa-regular fa-envelope"></i> Subscribe</button>
                     </div>
                 </div>
             </div>
@@ -61,28 +63,28 @@
     <main>
         <section class="bg-[#1A0B2E] ">
             <div class="px-5 min-[992px]:max-w-[1200px] mx-auto">
-                <div class="text-center max-w-[400px] mx-auto min-[992px]:max-w-[1200px] py-10">
+                <div class="text-center max-w-[400px] mx-auto min-[576px]:max-w-[600px] min-[992px]:max-w-[1200px] py-10 ">
                     <h2 class="text-[32px]
-                    font-bold min-[992px]:text-[48px]">About The Poducast</h2>
-                    <p class="leading-[26px] mt-4 min-[992px]:px-[260px]">TechWave is your go-to podcast for staying ahead in the fast-paced world of tefhnology. We break down complex topics into digestible insights, explore productivity strategies that actually work, and shate stories of personal growth from industry leaders.</p>
-                    <p class="mt-3 min-[992px]:mt-8">Join thousands of young professionals and tech enthusiasts who strart their day with TechWave.</p>
+                    font-bold min-[576px]:text-[40px] min-[992px]:text-5xl">About The Poducast</h2>
+                    <p class="leading-[26px] mt-4 min-[992px]:max-w-[680px] mx-auto">TechWave is your go-to podcast for staying ahead in the fast-paced world of tefhnology. We break down complex topics into digestible insights, explore productivity strategies that actually work, and shate stories of personal growth from industry leaders.</p>
+                    <p class="mt-3 min-[992px]:mt-8 ">Join thousands of young professionals and tech enthusiasts who strart their day with TechWave.</p>
                 </div>
                 <hr class="border-b-2 border-[#35116566]">
-                <div class="py-10 grid grid-cols-2 gap-10 justify-between text-center min-[992px]:grid-cols-4">
+                <div class="py-10 grid grid-cols-2 gap-10 justify-between text-center min-[992px]:grid-cols-4 min-[576px]:flex min-[576px]:flex-wrap min-[576px]:justify-center">
                     <div>
-                        <h1 class="text-[40px] font-black text-[#00FF88]">150K+</h1>
+                        <h1 class="text-[40px] font-black text-[#00FF88] min-[576px]:text-[44px] min-[992px]:text-5xl">150K+</h1>
                         <p class="text-[13px] leading-5">AVERAGE RATING</p>
                     </div>
                     <div>
-                        <h1 class="text-[40px] font-black text-[#00FF88]">200+</h1>
+                        <h1 class="text-[40px] font-black text-[#00FF88] min-[576px]:text-[44px] min-[992px]:text-5xl">200+</h1>
                         <p class="text-[13px] leading-5">MONTHLY LISTENERS</p>
                     </div>
                     <div>
-                        <h1 class="text-[40px] font-black text-[#00FF88] flex justify-center items-center gap-1">4.9 <img src="./assets/4.9.png" alt=""></h1>
+                        <h1 class="text-[40px] font-black text-[#00FF88] flex justify-center items-center gap-1 min-[576px]:text-[44px] min-[992px]:text-5xl">4.9 <img src="./assets/4.9.png" alt=""></h1>
                         <p class="text-[13px] leading-5">MONTHLY LISTENERS</p>
                     </div>
                     <div>
-                        <h1 class="text-[40px] font-black text-[#00FF88]">50+</h1>
+                        <h1 class="text-[40px] font-black text-[#00FF88] min-[576px]:text-[44px] min-[992px]:text-5xl">50+</h1>
                         <p class="uppercase text-[13px] leading-5">Industry Experts</p>
                     </div>
                 </div>
@@ -90,35 +92,35 @@
         </section>
 
         <section class="bg-[#230E3D]">
-            <div class="px-5 py-10 max-w-[1200px] mx-auto min-[992px]:py-[120px]">
-                <h2 class="text-[32px] text-center font-bold mb-4 min-[992px]:text-5xl min-[992px]:mb-10">Why Choose TechWave</h2>
-                <div class="grid gap-6 min-[992px]:grid-cols-3">
+            <div class="px-5 py-10 max-w-[1200px] mx-auto min-[992px]:py-[100px] min-[576px]:py-20">
+                <h2 class="text-[32px] text-center font-bold mb-4 min-[992px]:text-5xl min-[576px]:mb-7 min-[576px]:text-5xl min-[992px]:mb-10">Why Choose TechWave</h2>
+                <div class="grid gap-6 min-[992px]:grid-cols-3 min-[992px]:gap-[30px] min-[576px]:grid-cols-2 min-[576xp]:gap-7">
 
-                    <div class="p-6 bg-[#35116566] rounded-3xl min-[992px]:row-span-2 min-[992px]:content-center">
+                    <div class="p-6 bg-[#35116566] rounded-3xl min-[576px]:col-span-2 min-[992px]:col-span-1 min-[992px]:row-span-2 min-[992px]:content-center hover:scale-105 hover:bg-[#351165] duration-400">
                         <img src="./assets/headphone.png" alt="">
                         <h4 class="my-4 text-[22px] min-[992px]:text-2xl font-bold">Premium Audio Quality</h4>
                         <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
                     </div>
 
-                    <div class="p-6 bg-[#35116566] rounded-3xl min-[992px]:col-span-2 min-[992px]:content-center">
+                    <div class="p-6 bg-[#35116566] rounded-3xl min-[992px]:col-span-2 min-[992px]:content-center hover:scale-105 hover:bg-[#351165] duration-400">
                         <img src="./assets/device.png" alt="">
                         <h4 class="my-4 text-[22px] min-[992px]:text-2xl font-bold">Mobile Friendly</h4>
                         <p>Listen on the go with seamless mobile experience and offline downloads.</p>
                     </div>
 
-                    <div class=" p-6 bg-[#35116566] rounded-3xl min-[992px]:col-span-2 min-[992px]:content-center">
+                    <div class=" p-6 bg-[#35116566] rounded-3xl min-[992px]:col-span-2 min-[992px]:content-center hover:scale-105 hover:bg-[#351165] duration-400">
                         <img src="./assets/location.png" alt="">
                         <h4 class="my-4 text-[22px] min-[992px]:text-2xl font-bold">Global Community</h4>
                         <p>Connect with tech enthusiasts from over 120 countries worldwide.</p>
                     </div>
 
-                    <div class=" p-6 bg-[#35116566] rounded-3xl min-[992px]:col-span-2 min-[992px]:content-center">
+                    <div class=" p-6 bg-[#35116566] rounded-3xl min-[576px]:col-span-2 min-[992px]:content-center hover:scale-105 hover:bg-[#351165] duration-400">
                         <img src="./assets/zap-fast.png" alt="">
                         <h4 class="my-4 text-[22px] min-[992px]:text-2xl font-bold">Exclusive Interviews</h4>
                         <p>Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
                     </div>
 
-                    <div class=" p-6 bg-[#35116566] rounded-3xl min-[992px]:content-center">
+                    <div class=" p-6 bg-[#35116566] rounded-3xl min-[992px]:content-center min-[992px]:col-span-1 min-[576px]:col-span-2 hover:scale-105 hover:bg-[#351165] duration-400">
                         <img src="./assets/resource.png" alt="">
                         <h4 class="my-4 text-[22px] min-[992px]:text-2xl font-bold">Rich Resources</h4>
                         <p>Access show notes, transcripts, and additional learning materials for every episode.</p>
@@ -129,43 +131,45 @@
             </div>
         </section>
 
-        <section class="bg-[#1A0B2E] px-5 py-10">
+        <section class="bg-[#1A0B2E] px-5 py-10 min-[576px]:py-[70px] min-[992px]:py-[100px]">
             
             <div class="max-w-[1200px] mx-auto">
-                <h2 class="text-[32px] text-center font-bold mb-6">Featured Episodes</h2>
 
-                <div class="flex flex-col gap-4 min-[992px]:flex-row min-[992px]:gap-[30px] justify-center items-center">
+                <h2 class="text-[32px] text-center font-bold mb-6 min-[992px]:mb-10 min-[576px]:mb-8 min-[992px]:text-5xl min-[576px]:text-[40px]">Featured Episodes</h2>
+
+                <div class="flex flex-col gap-4 min-[576px]:flex-row min-[576px]:flex-wrap min-[576px]:gap-[22px] min-[992px]:flex-nowrap min-[992px]:gap-[30px] justify-center items-center ">
                     
-                    <div class="bg-[#250D44] max-w-[400px] rounded-3xl min-[992px]:max-w-[380px]">
+                    <div class="bg-[#250D44] max-w-[400px] rounded-3xl min-[576px]:max-w-[380px] cursor-pointer  hover:scale-105 hover:bg-[#351165] hover:shadow-[0_6px_50px_#3e0090] duration-400">
+
                         <iframe class="w-full h-[225px] rounded-t-3xl min-[992px]:max-h-[214px]"
                         
-                        src="https://www.youtube.com/embed/oX7OduG1YmI?si=pV8XXOLbQe-b5NHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        src="https://www.youtub.com/embed/oX7OduG1YmI?si=pV8XXOLbQe-b5NHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         <div class="p-4">
-                            <h3 class="font-bold text-[20px] min-[992px]:text-[24px]">The Future of AI in Everyday Life</h3>
+                            <h3 class="font-bold text-[20px] min-[576px]:text-[24px]">The Future of AI in Everyday Life</h3>
                             <p class="mt-2 leading-[26px]">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
                             <p class="text-[#00FF88] font-bold mt-2"><i class="fa-solid fa-clock"></i> 42 min</p>
                         </div>
                     </div>
 
-                    <div class="bg-[#250D44] max-w-[400px] rounded-3xl min-[992px]:max-w-[380px]">
+                    <div class="bg-[#250D44] max-w-[400px] rounded-3xl min-[992px]:max-w-[380px] cursor-pointer hover:scale-105 hover:bg-[#351165] hover:shadow-[0_6px_50px_#3e0090] duration-400">
                         <iframe
                         class="w-full h-[225px] rounded-t-3xl
                         min-[992px]:max-h-[214px]"
 
-                         src="https://www.youtube.com/embed/PLBYYdg0sfs?si=3gnq5bGpiNWekfLi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                         src="https://www.youtub.com/embed/PLBYYdg0sfs?si=3gnq5bGpiNWekfLi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         <div class="p-4">
-                            <h3 class="font-bold text-[20px] min-[992px]:text-[24px]">Building Better Habits for Remote Work</h3>
-                            <p class="mt-2 leading-[26px]">Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
+                            <h3 class="font-bold text-[20px] min-[576px]:text-[24px]">Building Better Habits for Remote Work</h3>
+                            <p class="mt-2 leading-[26px] overflow-hidden max-[576px]:line-clamp-2 max-[992px]:line-clamp-3">Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
                             <p class="text-[#00FF88] font-bold mt-2"><i class="fa-solid fa-clock"></i> 35 min</p>
                         </div>
                     </div>
 
-                    <div class="bg-[#250D44] max-w-[400px] rounded-3xl min-[992px]:max-w-[380px]">
+                    <div class="bg-[#250D44] max-w-[400px] rounded-3xl min-[992px]:max-w-[380px] cursor-pointer  hover:scale-105 hover:bg-[#351165] hover:shadow-[0_6px_50px_#3e0090] duration-400">
                         <iframe class="w-full h-[225px] rounded-t-3xl min-[992px]:max-h-[214px]" 
-                        src="https://www.youtube.com/embed/fZmQ_aPXJAM?si=PoRY0Jxv6TL4FOKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        src="https://www.youtub.com/embed/fZmQ_aPXJAM?si=PoRY0Jxv6TL4FOKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         <div class="p-4">
-                            <h3 class="font-bold text-[20px] min-[992px]:text-[24px]">Career Growth in Tech: A Roadmap</h3>
-                            <p class="mt-2 leading-[26px]">Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
+                            <h3 class="font-bold text-[20px] min-[576px]:text-[24px]">Career Growth in Tech: A Roadmap</h3>
+                            <p class="mt-2 leading-[26px] max-[576px]:line-clamp-2">Expert advice on navigating your tech career from junior for staying productive and developer to senior leadership roles.</p>
                             <p class="text-[#00FF88] font-bold mt-2"><i class="fa-solid fa-clock"></i> 52 min</p>
                         </div>
                     </div>
@@ -192,19 +196,20 @@
             </div>
 
             <div class="mt-[60px] max-w-[1200px] mx-auto">
-                <h2 class="text-[32px] font-bold text-center min-[992px]:text-5xl min-[992px]:mt-[120px]">Meet The Host</h2>
 
-                <div class="flex justify-center items-center flex-col text-center bg-[#35116566] mt-6 p-6 rounded-3xl min-[992px]:flex-row min-[992px]:mt-10 min-[992px]:gap-6">
+                <h2 class="text-[32px] font-bold text-center min-[576px]:text-[40px] min-[992px]:text-5xl min-[576px]:mt-[70px] min-[992px]:mt-[100px]">Meet The Host</h2>
+
+                <div class="flex justify- items-center flex-col text-center bg-[#35116566] mt-6 p-6 rounded-3xl min-[576px]:flex-row min-[576px]:mt-10 min-[576px]:gap-6 hover:scale-105 hover:bg-[#351165] hover:shadow-[0_6px_50px_#3e0090] duration-400">
 
                     <img class="w-[150px] min-[992px]:w-[200px]" src="./assets/host.png" alt="">
 
                     <div class="">
 
-                        <h3 class="my-4 text-2xl font-bold min-[992px]:text-[32px] min-[992px]:text-start justify-start min-[992px]:my-4">Alex Kumar</h3>
+                        <h3 class="my-4 text-2xl font-bold min-[992px]:text-[32px] min-[576px]:text-start">Alex Kumar</h3>
 
-                        <p class="leading-6 min-[992px]:text-start">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+                        <p class="leading-6 min-[576px]:text-start">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
                         
-                        <div class="flex items-center justify-center mt-4 gap-2 min-[992px]:justify-start">
+                        <div class="flex items-center justify-center mt-4 gap-2 min-[576px]:justify-start">
 
                             <span class="border-2 border-[#533C72] p-2.5 rounded-[1000px]">
                                 <img src="./assets/linkedin.png" alt="">
@@ -228,12 +233,12 @@
         </section>
     </main>
 
-    <footer class="bg-[url('./assets/footer-bg.png')] bg-contain bg-[#211142] bg-no-repeat h-auto  px-5 py-10 bg-[position:0px_50%] transform min-[992px]:bg-cover">
+    <footer class="bg-[url('./assets/footer-bg.png')] bg-contain min-[576px]:bg-size-[100%] bg-[#211142] bg-no-repeat h-auto  px-5 py-10 bg-[position:0px_50%] transform min-[992px]:bg-cover">
         <div class="flex flex-col items-center max-w-[1200px] mx-auto">
             <div class="flex justify-center mb-6">
                 <img class="max-w-[410px] w-[55%]" src="./assets/TechWave.png" alt="">
             </div>
-            <div class="grid grid-cols-2 min-[992px]:flex min-[992px]:flex-wrap max-w-[85%] justify-center items-center gap-4 mb-6 font-medium">
+            <div class="grid grid-cols-2 min-[576px]:flex min-[576px]:flex-wrap max-w-[85%] justify-center items-center gap-4 mb-6 font-medium">
                 <p class="flex items-center justify-center gap-2"><img src="./assets/spotify.png" alt=""> Spotify</p>
                 <p class="flex items-center justify-center gap-2 whitespace-nowrap"><img src="./assets/apple-podcast.png" alt=""> Apple Podcasts</p>
                 <p class="flex items-center justify-center gap-2"> <img src="./assets/youtube-podcast.png" alt="">Youtube</p>
