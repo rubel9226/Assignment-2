@@ -2,6 +2,8 @@
 
 @import "tailwindcss";
 
+
+
 @layer utilities{
     .inter{
         font-family: "Inter", sans-serif;
